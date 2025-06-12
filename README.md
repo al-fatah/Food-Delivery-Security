@@ -1,11 +1,11 @@
-# 🍔 Food Delivery Platform Security Architecture Project
+# Food Delivery Platform Security Architecture Project
 
-## 📌 Overview
+## Overview
 This project focuses on securing a food delivery platform that is being expanded from an internal-only service to one that supports public users and third-party providers. The platform will expose internal services via mobile and web applications, as well as public APIs. This transition demands a comprehensive security architecture to safeguard systems, data, network, and infrastructure.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Ensure the secure exposure of internal services to external parties
 - Protect sensitive data such as user credentials, payment information, and order data
 - Build a security-first architecture that is scalable, compliant, and resilient
@@ -13,7 +13,7 @@ This project focuses on securing a food delivery platform that is being expanded
 
 ---
 
-## ✅ Deliverables
+## Deliverables
 | Step | Description |
 |------|-------------|
 | 1. Security Requirements | Identified functional/non-functional security needs including authentication, authorization, encryption, and data privacy |
@@ -24,7 +24,7 @@ This project focuses on securing a food delivery platform that is being expanded
 
 ---
 
-## 🧩 Architecture Layers
+## Architecture Layers
 - **Presentation Layer**: Web/mobile apps secured with HTTPS, secure tokens, and CSP
 - **API Gateway Layer**: Throttling, authentication, input sanitization
 - **Application Services**: Secure inter-service communication, RBAC enforcement, logging
@@ -33,7 +33,7 @@ This project focuses on securing a food delivery platform that is being expanded
 
 ---
 
-## 🔐 Key Security Practices
+## Key Security Practices
 - OAuth 2.0 with PKCE and MFA
 - TLS 1.3 for all communication
 - Role-based access control
@@ -43,7 +43,7 @@ This project focuses on securing a food delivery platform that is being expanded
 
 ---
 
-## 🧪 Security Testing Tools
+## Security Testing Tools
 - **OWASP ZAP** / **Burp Suite** – Web and API vulnerability scanning
 - **Nessus** / **OpenVAS** – Network/infrastructure scanning
 - **Snyk** / **Checkmarx** – Dependency and source code analysis
